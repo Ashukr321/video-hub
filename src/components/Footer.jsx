@@ -9,7 +9,7 @@ import {
   Text,
 } from '@chakra-ui/react';
 import React from 'react';
-import { AiOutlineSend, AiFillLinkedin, AiFillInstagram } from 'react-icons/ai';
+import { AiOutlineSend, AiFillLinkedin, AiFillInstagram, AiFillGithub } from 'react-icons/ai';
 const Footer = () => {
   return (
     <Box bgColor={'blackAlpha.900'} minH={'40'} p={'16'} color={'white'}>
@@ -56,17 +56,21 @@ const Footer = () => {
           <HStack>
             <a
               href="https://www.linkedin.com/in/ashutosh-kumar-7ba1a6211/"
-              color="blue"
               target="blank"
             >
               <AiFillLinkedin size={30} />
             </a>
             <a
               href="https://instagram.com/ashukr321?igshid=MzNlNGNkZWQ4Mg=="
-              color="blue"
               target="blank"
             >
               <AiFillInstagram size={30} />
+            </a>
+            <a
+              href="https://github.com/Ashukr321"
+              target="blank"
+            >
+              <AiFillGithub size={30} />
             </a>
           </HStack>
         </VStack>
