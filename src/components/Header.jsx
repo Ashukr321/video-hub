@@ -19,6 +19,8 @@ const Header = () => {
   return (
     <>
       <Button
+      zIndex={'overlay'}
+
         pos={'fixed'}
         top={4}
         left={4}
@@ -45,16 +47,15 @@ const Header = () => {
               </Button>
 
               <Button onClick={onClose} variant={'ghost'} colorScheme="purple">
-                <Link to={'/Vedios'}>Vedios</Link>
+                <Link to={'/videos'}>Vedios</Link>
               </Button>
 
-              <Button onClick={onClose} variant={'ghost'} colorScheme="purple">
-                <Link to={'/Vedios?category=free'}>free Vedios</Link>
-              </Button>
-
+  
               <Button onClick={onClose} variant={'ghost'} colorScheme="purple">
                 <Link to={'/upload'}>upload Vedio</Link>
               </Button>
+          
+              
             </VStack>
             <HStack
               pos={'absolute'}

@@ -110,14 +110,12 @@ const Home = () => {
               p={['4','16']}
               textAlign={'center'}
             />
-            <Text letterSpacing={'widest'} lineHeight={'7'}>
+            <Text letterSpacing={'widest'} lineHeight={'7'} >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta,
               quod alias atque officiis praesentium animi magni reiciendis
               optio, ipsam quibusdam natus maiores a quae sequi quam laboriosam,
               dignissimos ullam qui! Animi consequuntur asperiores enim quos
-              dolorum rerum natus, similique Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Dolorum ullam accusantium tenetur
-              blanditiis. Magni facilis veritatis qui amet nihil architecto.
+              dolorum rerum natus
             </Text>
           </Stack>
         </Container>
